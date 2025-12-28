@@ -37,5 +37,9 @@ img {
 .header_links li:hover {
   background-color: grey;
 }
+.header_links li a {
+  text-decoration: none;
+  color: white;
+}
 
 
