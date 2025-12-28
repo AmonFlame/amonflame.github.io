@@ -25,6 +25,7 @@ img {
   display: flex;
   gap: 10px;
   background-color: #15e4ef;
+  margin: 0;
 }
 .header_links li {
   list-style: none;
