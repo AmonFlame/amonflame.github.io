@@ -12,3 +12,9 @@ img {
   width: auto;
   max-height: 500px;
 }
+.header_links {
+ border: 2px solid #15e4ef; 
+}
+.header_links li {
+  list-style: none;
+}
