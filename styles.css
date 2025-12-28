@@ -1,3 +1,7 @@
+header {
+  width: 100%;
+  position: fixed;
+}
 h1 {
   background-color: white;
   margin: 0;
@@ -14,6 +18,7 @@ background-color: black;
   margin: 0 auto;
   background-color: white;
   min-height: 100vh;
+  padding-top: 100px;
 }
 img {
   height: 100%;
