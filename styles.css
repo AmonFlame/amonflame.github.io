@@ -26,6 +26,7 @@ img {
   gap: 10px;
   background-color: #15e4ef;
   margin: 0;
+  justify-content: center;
 }
 .header_links li {
   list-style: none;
