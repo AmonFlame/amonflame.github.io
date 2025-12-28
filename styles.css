@@ -38,7 +38,7 @@ img {
 .header_links li {
   list-style: none;
   text-decoration: none;
-  padding: 5px;
+  padding: 5px 0;
   background-color: white;
 }
 .header_links li:hover {
@@ -47,6 +47,8 @@ img {
 .header_links li a {
   text-decoration: none;
   color: black;
+  border: 2px black solid;
+  padding: 5px;
 }
 table {
   border: black 2px solid;
