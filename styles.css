@@ -15,7 +15,12 @@ img {
 .header_links {
  border: 2px solid #15e4ef; 
     list-style: none;
+  padding: 10px 20px;
 }
 .header_links li {
   list-style: none;
 }
+.header_links li:first-of-type {
+  margin-left: 0;
+}
+
