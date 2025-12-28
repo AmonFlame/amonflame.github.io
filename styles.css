@@ -3,9 +3,14 @@ table {
   font-size: 20px;
 }
 body {
+background-color: black;
+  margin: 0;
+}
+.page {
   width: 80%;
-  min-width: 375px;
-  margin-inline: auto;
+  margin: 0 auto;
+  background-color: white;
+  min-height: 100vh;
 }
 img {
   height: 100%;
