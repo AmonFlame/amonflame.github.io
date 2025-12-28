@@ -1,6 +1,5 @@
-table {
-  border: black 2px solid;
-  font-size: 20px;
+h1 {
+  background-color: white;
 }
 body {
 background-color: black;
@@ -41,5 +40,8 @@ img {
   text-decoration: none;
   color: black;
 }
-
+table {
+  border: black 2px solid;
+  font-size: 20px;
+}
 
