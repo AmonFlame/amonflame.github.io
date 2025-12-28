@@ -23,10 +23,16 @@ img {
   padding: 10px 20px;
   display: flex;
   gap: 10px;
+  background-color: #15e4ef;
 }
 .header_links li {
   list-style: none;
-  
+  text-decoration: none;
+  padding: 5px;
+  background-color: white;
+}
+.header_links li:hover {
+  background-color: grey;
 }
 
 
