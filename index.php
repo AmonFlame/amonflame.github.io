@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <?php include 'header.php'; ?>
     <h2>Welcome To GFG</h2>
     <p>This is a test.</p>
     <table>
