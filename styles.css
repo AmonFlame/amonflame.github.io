@@ -18,7 +18,7 @@ background-color: black;
   margin: 0 auto;
   background-color: white;
   min-height: 100vh;
-  padding-top: 100px;
+  padding-top: calc(63px + 65px);
 }
 img {
   height: 100%;
