@@ -90,4 +90,7 @@ table {
   height: 50px;
   margin-bottom: 10px;
   background: url("/images/car.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
