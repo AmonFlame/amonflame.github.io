@@ -70,3 +70,9 @@ table {
 #result {
   font-size: 2rem;
 }
+.block {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+}
