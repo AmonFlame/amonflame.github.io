@@ -11,8 +11,8 @@ function getRandomInt(max, min) {
 }
 
 function generateQuestion() {
-  answer = getRandomInt(maxResult, 0);
-  let firstNum = getRandomInt(answer + 1, 0);
+  answer = getRandomInt(maxResult, 5);
+  let firstNum = getRandomInt(answer + 1, 1);
   let secondNum = answer - firstNum;
 
   firstNumLocation.textContent = firstNum;
