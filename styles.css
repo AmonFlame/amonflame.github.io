@@ -73,7 +73,9 @@ table {
 #block_stage {
   display: flex;
   flex-direction: row;
-  gap: 20px
+  gap: 20px;
+  justify-content: center;
+  align-elements: center;
 }
 #block_area1, #block_area2 {
   display: flex;
