@@ -12,9 +12,6 @@ let answer;
 let firstNum;
 let secondNum;
 
-currentLevel.addEventListener("change", (event) => {
-  maxResult = Number(currentLevel.value);
-};
 
 function getRandomInt(max, min) {
   return Math.floor(Math.random() * (max - min) + min);
@@ -49,6 +46,11 @@ function generateBlocks() {
 }
 
 generateQuestion();
+
+currentLevel.addEventListener("change", (event) => {
+  maxResult = Number(currentLevel.value);
+  generateQuestion();
+};
 
 check.addEventListener("click", () => {
   if (Number(resultLocation.value) === answer) {
