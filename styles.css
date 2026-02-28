@@ -84,7 +84,8 @@ table {
 }
 .block {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 20%;
+  aspect-ratio: 1/1;
   border: 2px solid black;
+  margin-right: 10px;
 }
