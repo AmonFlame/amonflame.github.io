@@ -76,6 +76,7 @@ table {
   gap: 20px;
   justify-content: center;
   align-elements: center;
+  padding-top: 30px;
 }
 #block_area1, #block_area2 {
   display: flex;
