@@ -6,18 +6,22 @@ const blockArea1 = document.getElementById("block_area1");
 const blockArea2 = document.getElementById("block_area2");
 const currentLevel = document.getElementById("level");
 
-
 let maxResult = Number(currentLevel.value);
+let minResult = Math.floor(maxResult / 2);
 let answer;
 let firstNum;
 let secondNum;
+
+currentLevel.addEventListener("change", (event) => {
+  maxResult = Number(currentLevel.value);
+};
 
 function getRandomInt(max, min) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
 function generateQuestion() {
-  answer = getRandomInt(maxResult, 5);
+  answer = getRandomInt(maxResult, minResult);
   firstNum = getRandomInt(answer + 1, 1);
   secondNum = answer - firstNum;
 
