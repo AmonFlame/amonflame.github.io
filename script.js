@@ -47,10 +47,11 @@ function generateBlocks() {
 
 generateQuestion();
 
-currentLevel.addEventListener("change", (event) => {
+currentLevel.addEventListener("change", () => {
   maxResult = Number(currentLevel.value);
+  minResult = Math.floor(maxResult / 2);
   generateQuestion();
-};
+});
 
 check.addEventListener("click", () => {
   if (Number(resultLocation.value) === answer) {
