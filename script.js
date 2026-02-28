@@ -18,5 +18,5 @@ if (Number(resultLocation.value) === answer) {
   alert("Try again!");
 }
   
-};
+}
 );
