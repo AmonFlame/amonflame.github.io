@@ -12,7 +12,7 @@ secondNumLocation.textContent = secondNum;
 const resultLocation = document.getElementById("result");
 const check = document.getElementById("check");
 check.addEventListener("click", () => {
-if (resultLocation.value === answer) {
+if (Number(resultLocation.value) === answer) {
   alert("You did it!");
 } else {
   alert("Try again!");
