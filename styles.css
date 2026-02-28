@@ -70,6 +70,16 @@ table {
 #result {
   font-size: 2rem;
 }
+#block_stage {
+  display: flex;
+  flex-direction: row;
+  gap: 20px
+}
+#block_area1, #block_area2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
 .block {
   display: inline-block;
   width: 10px;
