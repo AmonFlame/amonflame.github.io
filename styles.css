@@ -79,12 +79,12 @@ table {
 }
 #block_area1, #block_area2 {
   display: grid;
-  grid-template-columns: repeat(5, 70px);
+  grid-template-columns: repeat(5, 120px);
   gap: 30px 0;
 }
 .block {
   display: inline-block;
-  width: 50px;
+  width: 100px;
   border: 2px solid black;
   margin-right: 10px;
   height: 50px;
