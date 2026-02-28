@@ -83,10 +83,12 @@ table {
   flex-wrap: wrap;
   width: 40%;
 }
-.block {
+block {
   display: inline-block;
   width: 20%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 2/1;
   border: 2px solid black;
   margin-right: 10px;
+  height: 100%;
+  margin-bottom: 10px;
 }
