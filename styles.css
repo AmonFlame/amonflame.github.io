@@ -83,7 +83,7 @@ table {
   flex-wrap: wrap;
   width: 40%;
 }
-block {
+.block {
   display: inline-block;
   width: 20%;
   aspect-ratio: 2/1;
