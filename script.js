@@ -5,13 +5,18 @@ const check = document.getElementById("check");
 const blockArea1 = document.getElementById("block_area1");
 const blockArea2 = document.getElementById("block_area2");
 const currentLevel = document.getElementById("level");
+const scoreLocation = document.getElementById("currentScore");
 
 let maxResult = Number(currentLevel.value);
 let minResult = Math.floor(maxResult / 2);
 let answer;
 let firstNum;
 let secondNum;
+let currentScore = 0;
 
+function updateScore() {
+  scoreLocation.textContent = currentScore;
+};
 
 function getRandomInt(max, min) {
   return Math.floor(Math.random() * (max - min) + min);
@@ -58,6 +63,8 @@ check.addEventListener("click", () => {
     alert("You did it!");
     resultLocation.value = "";
     generateQuestion();
+    currentScore++;
+    updateScore();
   } else {
     alert("Try again!");
   }
