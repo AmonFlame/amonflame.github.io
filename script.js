@@ -17,9 +17,36 @@ function generateQuestion() {
 
   firstNumLocation.textContent = firstNum;
   secondNumLocation.textContent = secondNum;
+
+  generateBlocks();
 }
 
 generateQuestion(); // initial question
+
+const blockArea1 = document.getElementById("block_area1");
+const blockArea2 = document.getElementById("block_area2");
+
+function generateBlocks() {
+
+  blockArea1.innerHTML = "";
+  blockArea2.innerHTML = "";
+
+  const firstNum = Number(firstNumLocation.textContent);
+  const secondNum = Number(secondNumLocation.textContent);
+
+  for (let i = 0; i < firstNum; i++) {
+    const newDiv = document.createElement("div");
+    newDiv.classList.add("block");
+    blockArea1.appendChild(newDiv);
+  }
+
+  for (let i = 0; i < secondNum; i++) {
+    const newDiv = document.createElement("div");
+    newDiv.classList.add("block");
+    blockArea2.appendChild(newDiv);
+  }
+}
+
 
 check.addEventListener("click", () => {
   if (Number(resultLocation.value) === answer) {
