@@ -4,8 +4,10 @@ const resultLocation = document.getElementById("result");
 const check = document.getElementById("check");
 const blockArea1 = document.getElementById("block_area1");
 const blockArea2 = document.getElementById("block_area2");
+const currentLevel = document.getElementById("level");
 
-let maxResult = 15;
+
+let maxResult = Number(currentLevel.value);
 let answer;
 let firstNum;
 let secondNum;
