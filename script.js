@@ -8,7 +8,7 @@ const currentLevel = document.getElementById("level");
 const scoreLocation = document.getElementById("currentScore");
 
 let maxResult = Number(currentLevel.value);
-let minResult = Math.floor(maxResult / 2);
+let minResult = 1;
 let answer;
 let firstNum;
 let secondNum;
