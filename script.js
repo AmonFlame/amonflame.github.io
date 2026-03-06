@@ -20,13 +20,13 @@ function updateScore() {
 updateScore();
 
 function getRandomInt(max, min) {
-  return Math.floor(Math.random() * (max - min) + min);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function generateQuestion() {
-  answer = getRandomInt(maxResult, minResult);
-  firstNum = getRandomInt(answer + 1, 1);
-  secondNum = answer - firstNum;
+answer = getRandomInt(minResult, maxResult);
+firstNum = getRandomInt(1, answer - 1);
+secondNum = answer - firstNum;
 
   firstNumLocation.textContent = firstNum;
   secondNumLocation.textContent = secondNum;
