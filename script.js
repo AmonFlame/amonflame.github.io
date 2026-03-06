@@ -8,7 +8,7 @@ const currentLevel = document.getElementById("level");
 const scoreLocation = document.getElementById("currentScore");
 
 let maxResult = Number(currentLevel.value);
-let minResult = 1;
+let minResult = Math.round(maxResult / 4);
 let answer;
 let firstNum;
 let secondNum;
